@@ -33,7 +33,7 @@
           class="left flex relative z-10 justify-center items-center text-[white] text_nav text-[15px] md:text-[30px]"
           data-aos="fade-right" data-aos-duration="800" data-aos-delay="200">
           <div class="logo mr-[1rem]">
-            <h2 class="text-[20px] xl:text-[43.13px]">$tianyuan</h2>
+            <h2 class="text-[20px] xl:text-[43.13px] hidden md:block">TIANYUAN</h2>
           </div>
         </div>
         <div class="center absolute left-0 top-0 h-full w-[100%] z-0 justify-center flex items-center"
@@ -78,7 +78,7 @@
               </div>
             </a>
           </div>
-          <a href="dxlink" target="_blank"
+          <a href="dtlink" target="_blank"
             class="w-[90px] buy h-[60px] md:w-[145px] uppercase md:h-[63px] text-[black] bg-white rounded-[10px] md:rounded-[16px] text-[10px] xl:text-[18px] flex justify-center items-center btn_hover rock_font hover:scale-110 duration-300 border-[1px] border-[black]">
             Chart
           </a>
@@ -90,7 +90,7 @@
         </div>
       </div>
       <div
-        class="menu absolute duration-300 top-[100%] left-[0rem] w-[100%] h-[200px] flex justify-center border-t-[2px] border-[#0471A7] bg-[#18ABF4]">
+        class="menu absolute duration-300 top-[100%] left-[0rem] w-[100%] h-[200px] flex justify-center border-t-[2px] border-[#000] bg-[#ffad6f]">
         <ul class="flex items-center relative gap-[2rem] link_none flex-col justify-center">
           <li class="list-none">
             <a href="index.html#about"
@@ -116,7 +116,7 @@
           background-size: cover;
         ">
       <!-- title -->
-      <h2 class="title text-white absolute top-[20%] xl:top-[13%] text-[100px] md:text-[160px] xl:text-[278.76px]"
+      <h2 class="title text-white absolute top-[20%] xl:top-[13%] text-[60px] md:text-[160px] xl:text-[278.76px]"
         data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
         TIANYUAN
       </h2>
@@ -356,11 +356,11 @@
     </div>
     <!-- about section -->
     <section id="about"
-      class="about w-full relative h-[900px] md:h-[800px] xl:h-[1200px] flex justify-center items-center z-[1] overflow-hidden">
+      class="about w-full relative h-[1200px] md:h-[800px] xl:h-[1200px] flex justify-center items-center z-[1] overflow-hidden">
       <div
         class="content relative h-full w-[90%] min-[500px]:max-w-[500px] xl:max-w-[2000px] min-[1900px]:w-[1844.29px] min-[1900px]:h-[1062.25px] flex justify-center items-center">
         <!-- bg -->
-        <img src="assets/images/bg_about.svg" alt=""
+        <img src="assets/images/Screenshot 2025-03-01 161042-Photoroom.png" alt=""
           class="bg_content absolute left-0 top-0 object-contain min-[1900px]:object-cover w-full h-full" />
         <!-- boom  -->
         <img src="assets/images/log.png" alt=""
@@ -391,11 +391,11 @@
             class="right relative flex flex-col gap-[30px] min-[1900px]:gap-[70px] w-full lg:w-[40%] min-[1900px]:w-[855px] max-[1024px]:px-[2rem]">
             <p class="text-black leading-[1.5] max-[1024px]:text-center min-[1700px]:leading-[48px] text-[14px] xl:text-[20px] min-[1800px]:text-[30px]"
               data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
-              Introducing LUNA, the first-ever dog meme coin exclusively
-              launched on Abstract! LUNA isn’t just a token; it’s a heartfelt
-              tribute to Luca Netz's beloved dog and a celebration of the
-              Abstract community’s creativity and unity. As the very first dog
-              on Abstract, LUNA paves the way for a unique fusion of meme
+              Introducing Charming Critter Haven, the first-ever meme coin exclusively
+              launched on Abstract! $tianyuan isn’t just a token; it’s a heartfelt
+              tribute to the Charming Rabbit's 
+              Abstract community’s creativity and unity. As the cutest rabbit
+              on internet, $tianyuan paves the way for a unique fusion of meme
               culture and blockchain innovation.
             </p>
             <div class="relative max-[1024px]:w-full flex justify-center" data-aos="zoom-in" data-aos-duration="800"
@@ -624,7 +624,7 @@
       <img src="assets/images/bg_nomics2.png" alt="nomics"
         class="w-auto h-[50px] object-contain absolute right-[-1rem] top-[60%] z-[1]" />
       <!-- title -->
-      <h2 class="title uppercase text-white text-[60px] md:text-[70px] xl:text-[110px]" data-aos="fade-right"
+      <h2 class="title uppercase text-white text-[45px] md:text-[70px] xl:text-[110px]" data-aos="fade-right"
         data-aos-duration="800" data-aos-delay="200">
         Tokenomics
       </h2>
@@ -725,9 +725,11 @@
                 align-items: center;
                 justify-content: center;
                 padding-bottom: 40px;
+                padding-left: 1rem;
+                padding-right: 1rem;
               ">
-            <img src="assets/images/c banner-01.jpg" alt="elephant" class="w-full h-[420px] object-contain hidden lg:block"
-              data-aos="fade-up" data-aos-duration="800" style="border-radius: 15px" data-aos-delay="200" />
+            <img src="assets/images/c banner-01.jpg" alt="elephant" class="w-full h-auto md:h-[420px] object-contain lg:block"
+              data-aos="fade-up" data-aos-duration="800" style="border-radius: 15px; " data-aos-delay="200" />
           </div>
         </div>
       </div>
@@ -798,7 +800,7 @@
         if (window.innerWidth < 1300 && window.innerWidth > 500) {
           aboutImage.style.display = "none"; // Hide the image
         } else if (window.innerWidth < 500) {
-          aboutImage.setAttribute("src", "none");
+          aboutImage.setAttribute("src", "./assets/images/Screenshot 2025-03-01 161042-Photoroom.png");
         } else {
           aboutImage.setAttribute("src", "./assets/images/Screenshot 2025-03-01 161042-Photoroom.png");
         }
